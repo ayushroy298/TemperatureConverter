@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
             double c1 = Double.parseDouble(cel.getText().toString());
             double f1 = c1 * 1.8 + 32;
             double k1 = c1 + 273;
-            Log.i("celcius", "clicled" + cel.getText().toString());
+            Log.i("celcius", "clicked" + cel.getText().toString());
             String f11 = Double.toString(f1);
             String k11 = Double.toString(k1);
             Toast.makeText(this, "Fahrenheit temp. is " + f11 + "\n Kelvin temp. is " + k11, Toast.LENGTH_LONG).show();
