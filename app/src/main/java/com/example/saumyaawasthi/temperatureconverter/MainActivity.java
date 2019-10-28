@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
             Log.i("celcius", "clicked" + cel.getText().toString());
             String f11 = Double.toString(f1);
             String k11 = Double.toString(k1);
-            Toast.makeText(this, "Fahrenheit temp. is " + f11 + "\n Kelvin temp. is " + k11, Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Fahrenheit temperature is " + f11 + "\n Kelvin temperature is " + k11, Toast.LENGTH_LONG).show();
         }
     }
     public void fah(View view) {
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             double k2 = c2 + 273;
             String c22 = Double.toString(c2);
             String k22 = Double.toString(k2);
-            Toast.makeText(this, "Celcius temp. is " + c22 + "\n Kelvin temp. is " + k22, Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Celcius temperature is " + c22 + "\n Kelvin temperature is " + k22, Toast.LENGTH_LONG).show();
         }
     }
     public void kelvin(View view) {
